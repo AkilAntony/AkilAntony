@@ -1,0 +1,91 @@
+
+
+div.createButton-container>button{
+margin: 10px 0 0 0;
+padding: 5px 30px  ;
+}
+.createCustomer-btn{
+    background-color: #CACACA;
+    border:1px solid transparent;
+    padding: 6px 17px;
+    font-size: 12px;
+    margin: auto;
+    float: left;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: flex;
+    text-align: center;
+    margin-left: 5rem;
+}
+.container{
+    max-width: 63rem;
+    box-sizing: border-box;
+    background-color: #f5f5f5;;
+    margin: auto;
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+ 
+label{
+    max-width:100%;
+    display: inline-block;
+    font-size: 12px;
+}
+input,select{
+    height: 32px;
+    width: 130px;
+    margin:auto;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.createCustomerAccountContainer{
+    max-width:65rem;
+    box-sizing: border-box;
+    margin: auto;
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.treeStructure{
+
+}
+.createCustomerAccount-section{
+padding-left:2.5rem;
+ 
+}
+form>div{
+    margin-top: 15px;
+}
+select{
+    font-size: 12px
+}
+.submit-cancelButtonContainer{
+    float: right;
+}
+div.submit-cancelButtonContainer>button{
+  margin-left: 15px;
+  background-color: #CACACA;
+  padding: 5px 30px 5px 30px;
+  border-radius: 4px;
+  border:1px solid transparent;
+  font-size: 12px; 
+}
+
+@media(max-width:900px){
+    .createCustomerAccountContainer{
+        max-width:100%;
+        box-sizing: border-box;
+        margin: auto;
+      
+       
+        
+    }
+    .createCustomerAccount-section{
+        max-width:100%;
+         
+        }
+}

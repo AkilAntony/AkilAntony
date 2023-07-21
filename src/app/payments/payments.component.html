@@ -1,0 +1,75 @@
+<div class="container">
+   <label style="font-size: 12px;font-weight: bold;">Payments</label>
+   <div class="buttons" >
+        <button class="btn"
+            *ngFor="let button of buttons"
+            (click)="showHide(button)">
+            {{button}}
+        </button>
+         
+   </div>
+</div>
+<div class="createPaymentContainer" *ngIf="showCreatePaymentFile">
+    <label style="font-size: 12px;font-weight: bold;">Crate Payments</label>
+    <div class="row-1">
+        <label class="required">Order Number</label>
+        <input type="text" name="" id="" class="requiredInput">
+        <label class="required">Division</label>
+        <input type="text" name="" id="" class="requiredInput">
+        <label for="" class="required">contact Person</label>
+        <input type="text" name="" id="" class="requiredInput">
+    </div>
+    <div class="row-2">
+        
+        <label class="required">Payment Date</label>
+        <input type="date" name="" id="" placeholder="" class="requiredInput">
+        <label style="font-size:12px;" class="">Bank</label>
+        <input type="text" name="" id="" class="requiredInput">
+        <label for="" class="required">Payment currency</label>
+        <input type="text" name="" id="" class="requiredInput">
+     
+</div>
+    <div class="row-3">
+        <div class="subcontainer-3 col-md-4">
+            <label for="" class="required">Payment Amount</label>
+            <input type="text" name="" id="" class="requiredInput">
+        </div>
+        <div class="subcontainer-3 col-md-4">
+            <label for="" class="required">Transferred Amount</label>
+            <input type="text" name="" id="" class="requiredInput">
+       </div>
+       <div class="subcontainer-3 col-md-4">
+        <label for="" class="required">Exchange Rate</label>
+        <input type="text" name="" id="" class="requiredInput">
+   </div>
+    </div>
+</div>
+
+<!-- upload Payment File -->
+<div class="uploadPaymentFile" *ngIf="showUploadPaymentFile">
+    <label for="title" 
+        style="font-size: 12px;font-weight: bold;">Validate Payments</label>
+    <div class="validatePaymentcontainer" style="margin-top: 1rem;">
+        <label for="payment file"
+            style="font-size: 12px;font-weight: bold;
+            ;">
+            Select a Payment File:</label>
+        <br>
+        <input type="text" name="" id=""
+        value="{{selectedFileName}}"
+        style="height:35px;width:365px;margin-top: 5px;margin-left:20px;font-size: 12px">
+        <label for="file-upload" class="btns">
+             Browse
+        </label>
+            <input type="file" name="fileUpload"
+             value="Browse" id="file-upload"
+             style="display: none;"
+             (change)="getSelectedFile($event)"/>
+         <button class="btns" 
+         [disabled]="!enableUploadButton"
+         [ngClass]="{'pointer-events-none': enableUploadButton}">
+         Upload</button>
+    </div>
+</div>
+
+ 

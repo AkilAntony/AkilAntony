@@ -1,0 +1,145 @@
+.container{
+    height:8rem;
+    max-width: 63rem;
+    box-sizing: border-box;
+    background-color: #f5f5f5;;
+    margin: auto;
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 4rem;
+    padding-top:20px;
+    
+}
+                 
+/* change button background color through click */
+.clicked{
+    
+}
+
+.btn{
+    background-color: #BFBFBF;
+    border:1px solid transparent;
+    padding: 8px;
+    font-size: 12px;
+    margin: auto;
+    width:12rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:focus{
+    color: white;
+    background-color:#2F4F4F;
+}
+
+.createPaymentContainer{
+    max-width: 63rem;
+    box-sizing: border-box;
+    background-color: #f5f5f5;;
+    margin: auto;
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.required{
+    font-weight: normal;
+    font-size:12px;
+   line-break: strict;
+   
+}
+
+.row-1{
+    display: flex;
+    margin-bottom: 5px;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    margin-top:20px;
+}
+.row-2{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    margin-bottom: 5px;
+    margin-top:20px;
+}
+ 
+.row-3{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    margin-bottom: 5px;
+    margin-top:20px;
+}
+ 
+.subcontainer-3>input{
+   
+    margin-left:10% ;
+}
+ 
+.subcontainer-3>label{
+margin-left: 10px;
+max-width: 25%;
+margin-bottom: 5px;
+ 
+}
+
+
+.requiredInput{
+    height: 30px;
+    width: 150px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none 
+    
+}
+
+
+                    /* uploadPaymentFile */
+
+.uploadPaymentFile{
+    height:10rem;
+    max-width: 63rem;
+    box-sizing: border-box;
+    background-color: #f5f5f5;;
+    margin: auto;
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.btns{
+    background-color: #BFBFBF;
+    border:1px solid transparent;
+    padding:6px;
+    font-size: 12px;
+    margin-left:30px;
+    width:7rem;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+@media(max-width:676px){
+    .container{
+        height: 15rem;
+    }
+    .buttons{
+       display: list-item;  
+    }
+    .btn{
+        margin-top:10px;
+    }
+    .btns{
+       width:45%;
+       margin-top: 20px;
+       margin-left:20px;
+    }
+    .uploadPaymentFile{
+        height: 15rem;
+    }
+}

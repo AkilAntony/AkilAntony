@@ -1,0 +1,61 @@
+
+    <button class="createCustomer-btn" (click)="showCreateCustomerAccount()">Create customer Account</button>
+<div class="createCustomerAccountContainer row container-fluid">
+
+    <div class="treeStructure col-md-3" >
+        <label for="customer">{{customerAccountDetails}}
+            CA: {{customerAccountNumber}}, 
+        </label>
+        
+          
+          
+    </div>   
+
+    <div class="createCustomerAccount-section col-md-9" *ngIf="isCreateCustomerAccountVisible" >
+        <label for="CustomerAccountTitle" 
+         style="font-size: 12px;font-weight: bold;">Customer Account No. :
+        </label>
+        <form #myForm="ngForm" (ngSubmit)="getCustomerAccountDetails(myForm.value)">
+            <div class="row-1">
+                <label for="accountType" 
+                style="width:100px" class="required">Account Type</label>
+                <select name="accountType" id="" ngModel>
+                    <option value="Retail">Retail</option>
+                    <option value="Wholesale">Wholesale</option>
+                </select>
+                <label for="affliate" 
+                style="margin-left: 20px;">Affliate</label>
+                <select name="affliate" id="" ngModel
+                style="width:25rem;margin-left: 20px;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+            </div>
+            <div class="row-2">
+                <label for="customerName"
+                style="width:100px" class="required">Customer Account Name</label>
+                <input type="text" name="CustomerAccountName" style="width:38.3rem" ngModel id="">
+            </div>
+            <div class="row-3">
+                <label for="AccountAddress" 
+                style="width:100px" class="required">Account Address</label>
+                <input type="text" name="AccountAddress" ngModel style="width:38.3rem" id="">
+            </div>
+            <div class="row-4" >
+                <label for="remarks"style="width:100px">Remarks</label>
+                <input type="text" name="remarks"
+                style="width:38.3rem" ngModel id="">
+            </div>
+            <div class="row-5" >
+                <label for="startDate"
+                style="width:100px" class="required">start Date</label>
+                <input type="date" name="startDate" ngModel id="">
+            </div>
+            <div class="submit-cancelButtonContainer">
+                <button >Submit</button>
+                <button (click)="hideCreateCustomerAccount()">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+</div>
