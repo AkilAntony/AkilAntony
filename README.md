@@ -1,16 +1,23 @@
 ### Hi there 👋
 
-<!--
-**AkilAntony/AkilAntony** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm Akil A L, a front-end developer specializing in the MERN stack. With a Bachelor of Engineering in Computer Science and over a year of professional experience, I am passionate about crafting engaging web experiences using cutting-edge technologies.
 
-Here are some ideas to get you started:
+🎓 **Education & Work Experience**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Education**: Bachelor of Engineering in Computer Science
+- **Work Experience**:
+  - 6 months at Trinity Technologies
+  - 1 year at NTT Data
+
+💻 **Skills**
+
+- Frontend: JavaScript, React.js, HTML5, CSS3, Tailwind CSS, Bootstrap
+- Backend: Node.js, Express.js
+- Database: MongoDB
+
+📧 **Contact**
+
+Feel free to reach out to me via:
+- Email: [akhilal778@gmail.com](mailto:akhilal778@gmail.com)
+- LinkedIn: [Akil A L on LinkedIn](https://www.linkedin.com/in/akil-al/)
+- GitHub: [AkilAntony on GitHub](https://github.com/AkilAntony)
