@@ -14,6 +14,8 @@ I'm Akil A L, a front-end developer specializing in the MERN stack. With a Bache
 - Frontend: JavaScript, React.js, HTML5, CSS3, Tailwind CSS, Bootstrap
 - Backend: Node.js, Express.js
 - Database: MongoDB
+- ## Tech Stack
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
 
 📧 **Contact**
 
