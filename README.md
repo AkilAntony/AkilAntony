@@ -1,6 +1,6 @@
-### Hi there 👋
+## Hi there 👋
 
-I'm Akil A L, a front-end developer specializing in the MERN stack. With a Bachelor of Engineering in Computer Science and over a year of professional experience, I am passionate about crafting engaging web experiences using cutting-edge technologies.
+I'm Akil A L, a Front-end developer specializing in the MERN stack. With a Bachelor of Engineering in Computer Science and over a year of professional experience, I am passionate about crafting engaging web experiences using cutting-edge technologies.
 
  ## 🎓EDUCARION & WORK EXPERIENCE 
 
