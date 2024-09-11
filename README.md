@@ -11,7 +11,7 @@ I'm Akil A L, a Front-end developer specializing in the MERN stack. With a Bache
 
  
 ## 💻 Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm,mongodb,react,node,express,tailwindcss,bootstrap,jwt,npm,java)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,CSS,golang,redux,mui,mongodb,react,node,express,tailwindcss,bootstrap,jwt,npm,java)](https://skillicons.dev)
 
 
  ## 📧 CONTACT
