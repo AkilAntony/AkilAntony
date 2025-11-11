@@ -6,8 +6,9 @@ I'm Akil A L, a Front-end developer specializing in the MERN stack. With a Bache
 
 - **Education**: Bachelor of Engineering in Computer Science
 - **Work Experience**:
-  - 6 months at Trinity Technologies
+  - 1.2 years at ClubTravalet
   - 1 year at NTT Data
+  - 6 months at Trinity Technologies
 
  
 ## 💻 Tech Stack
